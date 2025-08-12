@@ -389,7 +389,7 @@ if __name__ == "__main__":
     # <-- point this to your blank template path
     BASE_DIR = os.path.dirname(__file__)  # directory of your script
     BLANK_PDF = os.path.join(BASE_DIR, "blank_invoice.pdf")
-    OUTPUT_PDF = os.path.join(BASE_DIR, "generated_invoice.pdf")
+    OUTPUT_PDF = os.path.join(BASE_DIR, "example_generated_invoice.pdf")
 
     # Example data (replace with your inputs)
     sample = {
